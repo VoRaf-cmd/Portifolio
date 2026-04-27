@@ -1,0 +1,28 @@
+{
+  "name": "rafael-carlesso-portfolio",
+  "version": "1.0.0",
+  "description": "Rafael Carlesso - Designer & Developer Portfolio with Mouse Light Effect",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "portfolio",
+    "designer",
+    "developer",
+    "interactive",
+    "mouse-effect",
+    "light-effect"
+  ],
+  "author": "Rafael Carlesso",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2"
+  },
+  "devDependencies": {},
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

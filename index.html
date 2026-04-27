@@ -1,0 +1,280 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Rafael Carlesso — Designer & Developer</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="header">
+    <nav class="navbar">
+      <div class="nav-logo">RC</div>
+      <ul class="nav-menu">
+        <li><a href="#hero" class="nav-link" data-i18n="nav.home">Início</a></li>
+        <li><a href="#about" class="nav-link" data-i18n="nav.about">Sobre</a></li>
+        <li><a href="#skills" class="nav-link" data-i18n="nav.skills">Skills</a></li>
+        <li><a href="#projects" class="nav-link" data-i18n="nav.projects">Projetos</a></li>
+        <li><a href="#contact" class="nav-link" data-i18n="nav.contact">Contato</a></li>
+      </ul>
+      <div class="nav-controls">
+        <button id="langToggle" class="lang-btn" aria-label="Trocar idioma">🇧🇷</button>
+        <button id="themeToggle" class="theme-btn" aria-label="Modo escuro">🌙</button>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero" id="hero">
+      <div class="hero-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+      </div>
+
+      <div class="hero-content" data-parallax-deep>
+        <div class="profile-wrapper">
+          <div class="profile-frame">
+            <img src="img/Profile.jpg" alt="Rafael Carlesso" class="profile-img" />
+            <div class="profile-glow"></div>
+          </div>
+        </div>
+        
+        <div class="hero-text">
+          <h1 class="hero-title" data-split>Rafael Carlesso</h1>
+          <p class="hero-subtitle" data-i18n="hero.subtitle">Crafting interfaces that inspire & interact</p>
+          <p class="hero-desc" data-i18n="hero.desc">Designer e desenvolvedor focado em criar experiências visuais minimalistas e interativas.</p>
+          
+          <!-- Tech Icons -->
+          <ul class="tech-icons">
+            <li class="tech-icon" data-tooltip="HTML5">
+              <img src="img/html5.png" alt="HTML5" />
+            </li>
+            <li class="tech-icon" data-tooltip="CSS3">
+              <img src="img/css3.png" alt="CSS3" />
+            </li>
+            <li class="tech-icon" data-tooltip="JavaScript">
+              <img src="img/javascript.png" alt="JavaScript" />
+            </li>
+            <li class="tech-icon" data-tooltip="Lua">
+              <img src="img/lua.png" alt="Lua" />
+            </li>
+            <li class="tech-icon" data-tooltip="Python">
+              <img src="img/python.png" alt="Python" />
+            </li>
+          </ul>
+
+          <div class="hero-cta">
+            <a href="#projects" class="cta-btn cta-primary">
+              <span>Explorar Trabalhos</span>
+              <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M5 12h14M12 5l7 7-7 7"/>
+              </svg>
+            </a>
+            <a href="#contact" class="cta-btn cta-secondary">
+              <span>Entrar em Contato</span>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="scroll-indicator">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+          <path d="M12 5v14M19 12l-7 7-7-7"/>
+        </svg>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="about.title">Sobre Mim</h2>
+        
+        <div class="about-grid">
+          <div class="about-text">
+            <p>Sou Rafael Carlesso, um desenvolvedor apaixonado por criar experiências visuais minimalistas e interativas. Com 15 anos e 4 anos dedicados ao estudo de programação, já acumulo experiência significativa em desenvolvimento web e game dev no Roblox.</p>
+            <p>Especializado em Lua, tenho desenvolvido diversos projetos games no Roblox com foco em mecânicas interessantes e design imersivo. Também domino HTML, CSS e JavaScript para web. Acredito que grande design é invisível—funciona tão bem que o usuário nem percebe.</p>
+          </div>
+          
+          <div class="about-stats">
+            <div class="stat-card">
+              <h3>4+</h3>
+              <p data-i18n="about.exp">Anos de Experiência</p>
+            </div>
+            <div class="stat-card">
+              <h3>5</h3>
+              <p data-i18n="about.langs">Linguagens Dominadas</p>
+            </div>
+            <div class="stat-card">
+              <h3>15</h3>
+              <p data-i18n="about.age">Anos de Idade</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="skills.title">Competências</h2>
+        
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-category">Frontend</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <span class="skill-name">HTML5</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 76%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">CSS3</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 55%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">JavaScript</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 38%"></div></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-group">
+            <h3 class="skill-category">Backend & Tools</h3>
+            <div class="skill-bars">
+              <div class="skill-item">
+                <span class="skill-name">Lua</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 87%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Python</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 60%"></div></div>
+              </div>
+              <div class="skill-item">
+                <span class="skill-name">Game Dev / Roblox</span>
+                <div class="skill-bar"><div class="skill-fill" style="width: 87%"></div></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="section-container">
+        <h2 class="section-title" data-i18n="projects.title">Projetos Destacados</h2>
+        
+        <div class="projects-grid">
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-number">01</div>
+              <div class="project-icon">🎮</div>
+            </div>
+            <h3 data-i18n="projects.jerisvaldo">Jerisvaldo Roguelike</h3>
+            <p data-i18n="projects.jerisvaldoDesc">Game Roblox desenvolvido com foco em mecânicas roguelike e gameplay envolvente.</p>
+            <div class="project-techs">
+              <span>Lua</span>
+              <span>Roblox</span>
+              <span>Game Design</span>
+            </div>
+            <a href="https://www.roblox.com/pt/games/102743977959270/Jerisvaldo-Roguelike" class="project-link" data-i18n="projects.viewProject" target="_blank">Ver Projeto →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-number">02</div>
+              <div class="project-icon">🎥</div>
+            </div>
+            <h3 data-i18n="projects.studio">C&J Studio</h3>
+            <p data-i18n="projects.studioDesc">Studio de conteúdo focado em criação e análise de games no Roblox e desenvolvimento.</p>
+            <div class="project-techs">
+              <span>YouTube</span>
+              <span>Content</span>
+              <span>Gaming</span>
+            </div>
+            <a href="https://www.youtube.com/@CeJ_Studio" class="project-link" data-i18n="projects.viewStudio" target="_blank">Ver Studio →</a>
+          </article>
+
+          <article class="project-card">
+            <div class="project-header">
+              <div class="project-number">03</div>
+              <div class="project-icon">💻</div>
+            </div>
+            <h3 data-i18n="projects.portfolio">Portélio Web</h3>
+            <p data-i18n="projects.portfolioDesc">Site pessoal minimalista com design moderno em glassmorphism e animações suaves.</p>
+            <div class="project-techs">
+              <span>HTML</span>
+              <span>CSS</span>
+              <span>JavaScript</span>
+            </div>
+            <a href="#" class="project-link" data-i18n="projects.viewCode">Ver Código →</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="section-container contact-wrapper">
+        <div class="contact-content">
+          <h2 class="section-title" data-i18n="contact.title">Vamos Conversar?</h2>
+          <p class="contact-desc" data-i18n="contact.desc">Interessado em colaborar ou tem alguma pergunta? Entre em contato agora.</p>
+          
+          <form class="contact-form" id="contactForm">
+            <div class="form-group">
+              <label for="name" data-i18n="contact.form.name">Nome Completo</label>
+              <input type="text" id="name" name="name" placeholder="Digite seu nome" data-i18n-placeholder="contact.form.namePlaceholder" required aria-label="Nome">
+            </div>
+            <div class="form-group">
+              <label for="email" data-i18n="contact.form.email">Email</label>
+              <input type="email" id="email" name="email" placeholder="seu@email.com" data-i18n-placeholder="contact.form.emailPlaceholder" required aria-label="Email">
+            </div>
+            <div class="form-group">
+              <label for="message" data-i18n="contact.form.message">Mensagem</label>
+              <textarea id="message" name="message" placeholder="Sua mensagem..." data-i18n-placeholder="contact.form.messagePlaceholder" rows="5" required aria-label="Mensagem"></textarea>
+            </div>
+            <button type="submit" class="submit-btn" data-i18n="contact.form.submit">
+              <span>✉️ Enviar Mensagem</span>
+            </button>
+          </form>
+        </div>
+
+        <div class="contact-info">
+          <h3 data-i18n="contact.info.title">Outras Formas de Contato</h3>
+          <div class="info-item">
+            <span class="label" data-i18n="contact.info.emailLabel">Email:</span>
+            <a href="mailto:carelesso0102@gmail.com">carelesso0102@gmail.com</a>
+          </div>
+          <div class="info-item">
+            <span class="label" data-i18n="contact.info.phoneLabel">Telefone:</span>
+            <a href="tel:+5527996639182">+55 (27) 99663-9182</a>
+          </div>
+          <div class="info-item">
+            <span class="label" data-i18n="contact.info.locationLabel">Localização:</span>
+            <span data-i18n="contact.info.location">Brasil</span>
+          </div>
+          <div class="social-links">
+            <a href="https://www.youtube.com/@CeJ_Studio" class="social-link" title="YouTube" target="_blank">
+              <img src="img/youtube.png" alt="YouTube" width="500" height="300">
+            </a>
+            <a href="https://www.roblox.com/pt/games/102743977959270/Jerisvaldo-Roguelike" class="social-link" title="Roblox" target="_blank">
+              <img src="img/roblox.png" alt="Roblox" width="500" height="300">
+            </a>
+            <a href="mailto:carelesso0102@gmail.com" class="social-link" title="Email">
+              <img src="img/gmail.png" alt="Email" width="500" height="300">
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© 2024 Rafael Carlesso. Crafted with passion.</p>
+  </footer>
+
+  <script src="js/i18n.js"></script>
+  <script src="js/script.js"></script>
+</body>
+</html>
