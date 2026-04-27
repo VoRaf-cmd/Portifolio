@@ -1,0 +1,1 @@
+Modern personal portfolio showcasing Rafael Carlesso, a young designer and developer focused on minimal, interactive web experiences. Features smooth animations, glassmorphism UI, multilingual support, and projects in web development and Roblox game design using HTML, CSS, JavaScript, Lua, and Python.
